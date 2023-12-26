@@ -43,7 +43,8 @@
     margin-top: -4px;
     padding: 10px;
     @include very-bold-text-font;
-    background-color: white;
+    background-color: rgba(32, 216, 244, 0);
+    
   }
 
   &__arrow-left, &__arrow-right {
@@ -244,12 +245,12 @@
 .imagecarouselwrapper {
   margin-bottom: 50px;
   padding: 20px 0 25px 18px;
-  background-color: $color-blue-normal;
+  background-color: $color-blue-light;
   
   &__title {
     margin-bottom: 25px;
     margin-right: 17px;
-    @include title-font(white);
+    @include title-font(rgb(17, 16, 15));
   }
   
   &__subtitle {

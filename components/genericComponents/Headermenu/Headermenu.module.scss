@@ -109,7 +109,7 @@
   }
   
   &__nav-dropdown-wrapper {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 20px;
   }
@@ -118,7 +118,7 @@
     position: absolute;
     top: 100%;
     left: 50%;
-    display: none;
+    display: inline-block;
     flex-direction: column;
     width: 460px;
     padding: 15px;

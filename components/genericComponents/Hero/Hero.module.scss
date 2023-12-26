@@ -17,7 +17,7 @@
 
   &--blue {
     @extend .hero;
-    background-color: $color-blue-very-light;
+    background-color: $color-blue-light;
   }
 
   &--red {
@@ -37,12 +37,12 @@
 
   &--yellow {
     @extend .hero;
-    background-color: $color-yellow-very-light;
+    background-color: $color-blue-light;
   }
 
   &--purple {
     @extend .hero;
-    background-color: $color-purple-very-light;
+    background-color: $color-blue-light;
   }
 
   &__container {
